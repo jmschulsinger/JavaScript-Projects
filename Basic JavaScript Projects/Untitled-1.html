@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html> 
+  
+<body> 
+    <center> 
+        <h1 style="color:green;">GeeksforGeeks</h1> 
+  
+        <p>A GLOBAL variable can be accessed from  
+                            any script or function.</p> 
+  
+        <p id="geeks"></p> 
+        <p id="Geeks"></p> 
+        <script> 
+            var petName = "Rocky";//global variable 
+            myFunction(); 
+  
+            function myFunction() { 
+                document.getElementById("geeks").innerHTML = 
+                  typeof petName + "- " + "My pet name is " + petName; 
+            } 
+  
+            document.getElementById("Geeks").innerHTML = 
+               typeof petName + "- " + "My pet name is " + petName; 
+        </script> 
+  </center> 
+  
+</body> 
+  
+</html> 
