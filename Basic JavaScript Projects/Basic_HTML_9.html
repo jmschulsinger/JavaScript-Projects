@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+        <html lang="en">
+            <head>
+                <meta charset="utf-8">
+                <title>Basic HTML Template</title>
+            </head>
+            <body>
+
+                <p>How many seconds would you like to set your alarm for?</p>
+                <input id="seconds" value="" />
+                <button onclick="countdown()">Click here</button>
+                <p id="timer"></p>
+
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="Images/thumbnail_1.jpeg" style="width:100%" alt="Pitbull">
+                          <div class="text">Pitbull</div>
+                        </div>
+                      
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="Images/thumbnail_2.jpeg" style="width:100%" alt="Lab">
+                          <div class="text">Labrador</div>
+                        </div>
+                      
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="Images/thumbnail_3.jpeg" style="width:100%" alt="Rottweiler">
+                          <div class="text">Rottweiler</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="Images/thumbnail_4.jpeg" style="width:100%" alt="Husky">
+                            <div class="text">Husky</div>
+                        </div>
+                      
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                      </div>
+                      <br>
+                      
+                      <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+
+                      </div>
+                <!-- END Slideshow container -->
+
+
+            <script src="JS/Basic_JavaScript_9.js"></script>
+            <link rel="stylesheet" type="text/css" href="./css/Basic_CSS_1.css">
+        
+            </body>
+        </html>       
