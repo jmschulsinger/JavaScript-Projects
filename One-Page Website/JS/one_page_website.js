@@ -4,7 +4,7 @@ function openModal() {
   }
   
   // Close the Modal
-  function closeModal() {
+  function startModal() {
     document.getElementById("myModal").style.display = "none";
   }
   
